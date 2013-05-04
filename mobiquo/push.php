@@ -1,5 +1,5 @@
 <?php
-
+//
 error_reporting(0);
 ini_set('diplay_errors', 1);
 define('IN_MOBIQUO', 1);
