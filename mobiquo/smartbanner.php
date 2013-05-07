@@ -1,7 +1,7 @@
 <?php
 
 $app_ios_id = isset($modSettings['tp_app_ios_id']) ? $modSettings['tp_app_ios_id'] : '';;
-$app_kindle_url = isset($modSettings['tp_kindle_url']) ? $modSettings['tp_kindle_url'] : '';
+$app_kindle_url = isset($modSettings['tp_kf_url']) ? $modSettings['tp_kf_url'] : '';
 $app_android_url = isset($modSettings['tp_android_url']) ? $modSettings['tp_android_url'] : '';
 
 $app_forum_name = !empty($GLOBALS['mbname'])? $GLOBALS['mbname'] : '';;
