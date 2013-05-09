@@ -12,7 +12,7 @@ $tapatalk_dir_url = $boardurl. '/mobiquo';
 
 $context['html_headers'] .= '
 <!-- Tapatalk Detect head start -->
-<link   href="'.$tapatalk_dir_url.'/smartbanner/appbanner.css" rel="stylesheet" type="text/css" media="screen">
+<link   href="'.$tapatalk_dir_url.'/smartbanner/appbanner.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript">
     var is_mobile_skin      = 0;
     var app_ios_id          = "'.intval($app_ios_id).'";
